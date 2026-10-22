@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Zomato - Food Delivery</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head><body><!-- Navbar -->
+<header>
+    <div class="logo">zomato</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="food.html">Food</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="product.html">Products</a>
+        <a href="offers.html">Offers</a>
+        <a href="cart.html">My Cart</a>
+        <a href="login.html">Login</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+
+    <h1>zomato</h1>
+
+    <p>Discover the best food & drinks near you</p>
+
+    <form class="search-box" id="foodSearchForm">
+
+        <input
+            type="search"
+            id="foodSearch"
+            placeholder="Search Burger, Pizza, Noodles, Healthy Food..."
+            aria-label="Search food"
+        >
+
+        <button type="submit">Search</button>
+
+    </form>
+
+</section>
+
+<!-- Search Results: Same Home Page -->
+<section class="search-section" id="searchResultsSection" hidden>
+
+    <h2>Search Results</h2>
+
+    <div class="search-results" id="searchResults"></div>
+
+</section>
+
+<!-- Main Content -->
+<main class="container" id="homeContent">
+
+    <!-- Food Categories -->
+    <section id="categories">
+
+        <h2>What's on your mind?</h2>
+
+        <div class="categories">
+
+            <div class="category">
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80"
+                    alt="Burger">
+                <h3>Burgers</h3>
+            </div>
+
+            <div class="category">
+                <img
+                    src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80"
+                    alt="Pizza">
+                <h3>Pizza</h3>
+            </div>
+
+            <div class="category">
+                <img
+                    src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=400&q=80"
+                    alt="Noodles">
+                <h3>Noodles</h3>
+            </div>
+
+            <div class="category">
+                <img
+                    src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=400&q=80"
+                    alt="Healthy Food">
+                <h3>Healthy Food</h3>
+            </div>
+
+
+        </div>
+
+    </section>
